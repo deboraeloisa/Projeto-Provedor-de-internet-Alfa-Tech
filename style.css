@@ -1,0 +1,341 @@
+/* CSS geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;   
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+span{
+    color: #2f86d6;
+}
+/*Fim CSS geral*/
+
+/*INICIO CSS LOGO*/
+
+.logo img{
+    width: 80px;  
+}
+
+.logo{
+    display: flex;
+    align-items: center;   
+}
+
+.logo div{
+    padding: 15px;
+}
+.logo p{
+    font-weight: 500;
+    color: #2f86d6;
+}
+
+/*FIM CSS LOGO*/
+
+
+/*inicio CSS topo*/
+#topo{
+    width: 100%;
+    background-color: #fff;
+}
+
+.topo-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.menu-navegacao a{
+    width: 100%;
+    text-decoration: none;
+    color: #233032;
+    font-weight: 600;
+    padding: 0 20px ;
+    font-size: 17px;
+}
+
+.menu-navegacao a:hover{
+    color: #2f86d6;
+}
+
+/*Fim CSS topo*/
+
+/* INICIO CSS BANNER*/
+.secao-banner-apresentacao{
+    width: 100%;
+    background-color: #2f86d6;
+}
+.banner-conteudo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:  70px 0;
+    color: #fff;
+}
+
+.banner-conteudo img{
+ width: 50%;
+}
+
+.textos-banner p {
+  padding:  25px 0;
+  font-size: 16px;
+  line-height: 26px;
+  word-spacing: 3px;
+  
+}
+
+.textos-banner h2{
+  
+  font-size: 28px;
+  line-height: 40px;
+        
+}
+
+/*FIM CSS BANNER*/
+
+/* INICIO CSS 1-LINK-TABELA-PRECO*/
+.secao-link-tabela-precos1{
+    width: 100%;
+    background-color: #233032;
+    padding:  30px 0;
+   
+    
+}
+.link-tabela{
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: #fff;
+line-height: 35px;
+}
+
+
+.textos-link-tabela h2{
+    font-size: 24px;
+   
+}
+.textos-link-tabela p{
+    font-size: 16px;
+}
+
+.link-tabela a{
+    text-decoration: none;
+    font-size: 18px ;
+    background-color: #2f86d6;
+    padding: 15px 25px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer; 
+    border-radius: 5px;   
+    text-align: center;
+}    
+/*FIM CSS 1-LINK-TABELA-PRECO*/
+
+/*inicio CSS informacoes*/
+.secao-informacoes{
+    width: 100%;
+    background-color: #fff;
+    padding: 100px 0;
+}
+.conteudo-informacoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.conteudo-informacoes h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 45px;
+    
+}
+
+.blocos-informacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blocos-informacoes img{
+    width: 100px;
+    margin: 25px;
+}
+.blocos-informacoes div{
+    text-align: center;
+    
+}
+/*fim CSS informacoes*/
+
+/*inicio CSS tabela*/
+
+
+.tabela-usuarios h2{
+    
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 70px ;
+}
+
+.tabela {
+    border-radius: 4px;
+  
+  
+      
+}
+
+.caixatable{
+overflow-y: auto;
+margin-bottom: 50px;
+box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+    
+}
+
+.celula-cabeçalho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    background-color: #fff;
+    
+
+}
+.celula-cabeçalho h3 {
+    margin-bottom: 20px;
+}
+
+.celula-cabeçalho img{
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.celula-cabeçalho small {
+    width: 150px;
+    font-weight: 700;
+    color: #a89f9f;
+}
+
+.linhas-da-tabela:nth-child(odd){
+    background-color: #f6f6f6;
+}
+.linhas-da-tabela:nth-child(even){
+    background-color: #fff;
+}
+.linhas-da-tabela td{
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+/*fim CSS tabela*/
+
+/* INICIO CSS 2-LINK-TABELA-PRECO*/
+.secao-link-tabela-precos2{
+    background-color: #2f86d6;
+    padding:  30px 0;   
+}
+
+.secao-link-tabela-precos2 .link-tabela a {
+    background-color: #233032;
+}
+
+/* FIM CSS 2-LINK-TABELA-PRECO*/
+
+/*INICIO CSS FOOTER*/
+.secao-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .secao-footer .logo{
+    margin-top: 50px;
+ }
+
+.container-texto-rodape{
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px ;
+    margin: 50px 0;
+}
+
+.container-copyright{
+    width: 100%;
+    padding: 20px;
+    background-color: #f1f3f7;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.link-tabela a::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+    background-image: url("img/icone-foguete.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+    background-size: 20px 20px;    
+}
+/*FIM CSS FOOTER*/
+
+/*inicio media queries*/
+ @media (max-width: 1024px){
+    .container{ padding: 10px;}
+  
+ }
+
+ @media (max-width:768px){
+    .topo-conteudo { flex-direction: column;}
+    .topo-conteudo a{ font-size: 15px;}
+    .logo {margin-bottom: 10px;}
+    .link-tabela a{
+    padding: 8px 12px ;
+    font-size: 13px;}
+    .textos-link-tabela h2 {font-size: 23px ;}
+    .secao-link-tabela-precos1, .secao-link-tabela-precos2{ padding: 24px 0;}
+    .conteudo-informacoes h2{ font-size: 28px;}
+    .link-tabela{ display:flex; flex-direction: column;  }
+    }
+    
+ @media (max-width: 614px){
+    .link-tabela a{
+     padding: 8px 12px ;
+     font-size: 13px;}
+    .textos-link-tabela h2 {font-size: 23px ;}
+    .secao-link-tabela-precos1, .secao-link-tabela-precos2{ padding: 24px 0;}
+    .conteudo-informacoes h2{ font-size: 28px;}
+    .tabela img, small {
+     display: none;}
+ }
+    
+
+    
+ 
+  @media (max-width: 425px){
+   .menu-navegacao a { padding: 5px;}
+   .banner-conteudo img { display: none;}
+   .banner-conteudo { height: 450px;}
+   .logo{margin-bottom: 8px; }
+   .textos-link-tabela p{ font-size: 15px; margin: 10px;}
+  .textos-link-tabela h2 {font-size: 20px; margin:10px; text-align: center;}
+  .secao-link-tabela-precos1, .secao-link-tabela-precos2 { padding: 24px 0;}
+  .link-tabela{ display:flex; flex-direction: column;  }
+  .conteudo-informacoes h2{ font-size: 25px;}
+  .blocos-informacoes{display: flex; flex-direction: column;}
+  .tabela-usuarios h2 { font-size: 26px; }
+  } 
+ 
+/*fim media queries*/
