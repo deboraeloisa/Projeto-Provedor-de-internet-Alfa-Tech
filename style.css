@@ -257,7 +257,7 @@ box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
     flex-direction: column;
     align-items: center;
 }
- .secao-footer .logo{
+.secao-footer .logo{
     margin-top: 50px;
  }
 
@@ -290,6 +290,165 @@ box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
     background-size: 20px 20px;    
 }
 /*FIM CSS FOOTER*/
+     
+/*CSS pagina tabela de preços*/
+/*inicio CSS topo*/
+.topo2{
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #2f86d6;
+    border-bottom: 1px solid #f1f3f7;
+  }
+  
+  
+  .topo-conteudo2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+  }
+  
+  .topo-logo,
+  .rodape-logo {
+    display: flex;
+  }
+  
+  .topo-logo img,
+  .rodape-logo img {
+    width: 80px;
+  }
+  
+  .logo2 div,
+  .rodape-logo div {
+    margin-left: 15px;
+  }
+  
+  .logo2 p,
+  .rodape-logo p {
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .topo-links a {
+    width: 100%;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 20px ;
+    font-size: 17px;
+    color: #fff;
+  }
+  
+  .topo-links a:hover {
+    color: #233032;
+  }
+  /*FIM CSS topo*/
+
+  /*INICIO CSS TABELA DE PRECOS*/
+  #conteudo-principal {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .secaotabelapreco{
+    overflow-x: auto;
+    margin-top: 50px ;
+     margin-bottom:50px;
+  
+}
+  
+  .celula-cabeçalho2, td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+  }
+  
+  .celula-cabeçalho2 p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a8a4a4;
+  }
+  
+  .celula-cabeçalho2 h3 {
+    font-size: 36px;
+  }
+  
+  .cabeçalho-da-tabela2 th:first-child {
+    visibility: hidden;
+  }
+  
+  .cabeçalho-da-tabela2 th:hover {
+    background-color: #2f86d6;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .cabeçalho-da-tabela2:nth-child(1) {
+    background-color: #f1f3f7;
+  }
+  
+  .linhasDaTabela2 td:nth-child(1) {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  .marcador-azul::before {
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #2f86d6;
+    border-radius: 100px;
+  }
+   /*FIM CSS TABELA DE PRECOS*/
+
+  /*INICIO CSS FOTTER TABELA*/
+  #contato2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f86d6;
+    border-top: 1px solid #f1f3f7;
+  }
+
+
+  .secao-footer2{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .container-texto-rodape2 {
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+  }
+  
+  .container-copyright2 {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 450;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+  }
+  
+  .container-copyright2 span {
+    color: #2f86d6;
+  }
+/*FIM CSS FOTTER TABELA*/
+/*Fim CSS pagina tabela de preços*/
 
 /*inicio media queries*/
  @media (max-width: 1024px){
